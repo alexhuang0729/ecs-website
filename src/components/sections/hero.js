@@ -59,19 +59,14 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
-  const four = (
+  const one = <h1>Hello, we are</h1>;
+  const two = <h2 className="big-heading">Eagan Computer Society.</h2>;
+  const three = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
-        </a>
-        .
+      We are a communtiy organization seeking to expand technical opportunities to 
+      Eagan, MN and Dakota County as a whole. We are looking to hold a hackathon at Eagan High School this coming fall
+      as well as community education classes via Independent School District 196.
       </p>
     </>
   );
@@ -85,7 +80,7 @@ const Hero = () => {
     </a>
   );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, three, five];
 
   return (
     <StyledHeroSection>
